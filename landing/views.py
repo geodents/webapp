@@ -44,4 +44,7 @@ def subscribe(request):
         return redirect('subscribed')
         
     return render(request, 'index.html')
+
+def subscribed(request):
+    return render(request, 'subscribed.html')
     
